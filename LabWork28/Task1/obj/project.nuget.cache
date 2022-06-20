@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "dgSpecHash": "zYPAQkH//DW8VombTNbxtDUHlxHO2MEsOQVivoo2pFG/8O50W6JQUYbgFOp4ZedR3kI9NxPvYJcaVbX/dK2irQ==",
+  "success": true,
+  "projectFilePath": "C:\\Temp\\ISPP01\\mdk0101\\LabWork28\\Task1\\Task1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\User\\.nuget\\packages\\extended.wpf.toolkit\\4.2.0\\extended.wpf.toolkit.4.2.0.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\qiqi.wpffontpicker\\1.1.0\\qiqi.wpffontpicker.1.1.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Пакет \"Extended.Wpf.Toolkit 4.2.0\" был восстановлен с помощью \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8\", а не целевой платформы проекта \"net5.0-windows7.0\". Этот пакет может быть не полностью совместим с вашим проектом.",
+      "libraryId": "Extended.Wpf.Toolkit",
+      "targetGraphs": [
+        "net5.0-windows7.0"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+﻿<Window x:Class="Task1Wpf.AddNewBookWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Task1Wpf"
+        mc:Ignorable="d"
+        Title="AddNewBookWindow" Height="360" Width="800" 
+        ResizeMode="NoResize"
+        Loaded="Window_Loaded">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="3*"/>
+        </Grid.ColumnDefinitions>
+
+        <Label Content="Title" Grid.Row="0" Grid.Column="0" />
+        <TextBox x:Name="TitleTextBox" Grid.Row="0" Grid.Column="1" />
+
+        <Label Content="Genre" Grid.Row="1" Grid.Column="0" />
+        <TextBox x:Name="GenreTextBox" Grid.Row="1" Grid.Column="1" />
+
+        <Label Content="Price" Grid.Row="2" Grid.Column="0" />
+        <Slider x:Name="PriceSlider" Grid.Row="2" Grid.Column="1" ValueChanged="Slider_ValueChanged" SmallChange="1" Maximum="9999.99" />
+
+        <Label Content="Mass" Grid.Row="3" Grid.Column="0" />
+        <Slider x:Name="MassSlider" Grid.Row="3" Grid.Column="1" ValueChanged="Slider_ValueChanged" Maximum="9.999" />
+        
+        <Label Content="Year" Grid.Row="4" Grid.Column="0" />
+        <Slider x:Name="YearSlider" Grid.Row="4" Grid.Column="1" TickFrequency="1" IsSnapToTickEnabled="True" ValueChanged="Slider_ValueChanged" SmallChange="1" Value="1" />
+
+        <Label Content="Author" Grid.Row="5" Grid.Column="0" />
+        <ComboBox x:Name="AuthorComboBox" Grid.Row="5" Grid.Column="1" />
+
+        <Button Content="Add" Grid.Row="6" Grid.ColumnSpan="2" Click="AddButton_Click"/>
+    </Grid>
+</Window>

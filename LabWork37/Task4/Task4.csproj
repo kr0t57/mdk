@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Resource Include="apple.png" />
+    <Resource Include="microsoft.png" />
+    <Resource Include="Resources/Icons/apple.png" />
+    <Resource Include="Resources/Icons/microsoft.png" />
+    <Resource Include="Resources/Fonts/OrelegaOne-Regular.ttf" />
+    <Resource Include="Resources/Fonts/RubikMoonrocks-Regular.ttf" />
+    <Resource Include="Resources/Fonts/Tapestry-Regular.ttf" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Resources\Icons\apple.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\Icons\microsoft.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>

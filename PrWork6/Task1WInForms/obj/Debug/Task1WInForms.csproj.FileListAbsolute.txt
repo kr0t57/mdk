@@ -1,0 +1,9 @@
+C:\Temp\ISPP01\mdk0101\PractWork6\Task1WInForms\bin\Debug\Task1WInForms.exe.config
+C:\Temp\ISPP01\mdk0101\PractWork6\Task1WInForms\bin\Debug\Task1WInForms.exe
+C:\Temp\ISPP01\mdk0101\PractWork6\Task1WInForms\bin\Debug\Task1WInForms.pdb
+C:\Temp\ISPP01\mdk0101\PractWork6\Task1WInForms\obj\Debug\Task1WInForms.csproj.AssemblyReference.cache
+C:\Temp\ISPP01\mdk0101\PractWork6\Task1WInForms\obj\Debug\Task1WInForms.Properties.Resources.resources
+C:\Temp\ISPP01\mdk0101\PractWork6\Task1WInForms\obj\Debug\Task1WInForms.csproj.GenerateResource.cache
+C:\Temp\ISPP01\mdk0101\PractWork6\Task1WInForms\obj\Debug\Task1WInForms.csproj.CoreCompileInputs.cache
+C:\Temp\ISPP01\mdk0101\PractWork6\Task1WInForms\obj\Debug\Task1WInForms.exe
+C:\Temp\ISPP01\mdk0101\PractWork6\Task1WInForms\obj\Debug\Task1WInForms.pdb

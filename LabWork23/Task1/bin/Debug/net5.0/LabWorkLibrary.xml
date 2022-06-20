@@ -1,0 +1,99 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>LabWorkLibrary</name>
+    </assembly>
+    <members>
+        <member name="T:LabWorkLibrary.Maths">
+            <summary>
+            Математические функции
+            </summary>
+        </member>
+        <member name="F:LabWorkLibrary.Maths.PI">
+            <summary>
+            Число Pi
+            </summary>
+        </member>
+        <member name="M:LabWorkLibrary.Maths.Sum(System.Double,System.Double)">
+            <summary>
+            Метод для сложения двух чисел
+            </summary>
+            <param name="a">Первое число</param>
+            <param name="b">Второе число</param>
+            <returns>Возвращает сумму двух чисел</returns>
+        </member>
+        <member name="M:LabWorkLibrary.Maths.Difference(System.Double,System.Double)">
+            <summary>
+            Метод для вычитания двух чисел
+            </summary>
+            <param name="a">Первое число</param>
+            <param name="b">Второе число</param>
+            <returns>Возвращает разность двух чисел</returns>
+        </member>
+        <member name="M:LabWorkLibrary.Maths.Multiplication(System.Double,System.Double)">
+            <summary>
+            Метод для умножения a на b
+            </summary>
+            <param name="a">Первое число</param>
+            <param name="b">Второе число</param>
+            <returns>Возвращает произведение двух чисел</returns>
+        </member>
+        <member name="M:LabWorkLibrary.Maths.Division(System.Double,System.Double)">
+            <summary>
+            Метод для деления a на b
+            </summary>
+            <exception cref="T:System.ArgumentException">Генерирует исключение при попытке деления на 0</exception>
+            <param name="a">Первое число</param>
+            <param name="b">Второе число</param>
+            <returns>Возвращает частное двух чисел</returns>
+        </member>
+        <member name="M:LabWorkLibrary.Maths.RectangleArea(System.Double,System.Double)">
+            <summary>
+            Метод для рассчёта площади прямоугольника
+            </summary>
+            <param name="a">Ширина</param>
+            <param name="b">Высота</param>
+            <returns>Возвращает частное двух чисел</returns>
+        </member>
+        <member name="T:LabWorkLibrary.Role">
+            <summary>
+            Перечисление Ролей. Содержит все возможные роли пользователя
+            </summary>
+        </member>
+        <member name="F:LabWorkLibrary.Role.Buyer">
+            <summary>
+            Покупатель
+            </summary>
+        </member>
+        <member name="F:LabWorkLibrary.Role.Manager">
+            <summary>
+            Менеджер
+            </summary>
+        </member>
+        <member name="F:LabWorkLibrary.Role.Administrator">
+            <summary>
+            Администратор
+            </summary>
+        </member>
+        <member name="T:LabWorkLibrary.User">
+            <summary>
+            Класс пользователя
+            </summary>
+        </member>
+        <member name="P:LabWorkLibrary.User.Login">
+            <summary>
+            Логин пользователя
+            </summary>
+        </member>
+        <member name="P:LabWorkLibrary.User.Password">
+            <summary>
+            Пароль пользователя
+            </summary>
+        </member>
+        <member name="P:LabWorkLibrary.User.Role">
+            <summary>
+            Роль пользователя
+            </summary>
+        </member>
+    </members>
+</doc>

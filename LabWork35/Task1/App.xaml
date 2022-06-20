@@ -1,0 +1,38 @@
+﻿<Application x:Class="Task1.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <SolidColorBrush x:Key="Foreground" Color="Black" />
+        <SolidColorBrush x:Key="Background" Color="#F1F1F2" />
+        <SolidColorBrush x:Key="PageBackground" Color="#F1F1F2" />
+        
+        <Style TargetType="Button">
+            <Setter Property="Foreground" Value="{StaticResource Foreground}" />
+            <Setter Property="Background" Value="{StaticResource Background}" />
+            <Setter Property="FontSize" Value="16" />
+            <Setter Property="FontFamily" Value="Resources/RubikMoonrocks-Regular.ttf #Rubik Moonrocks" />
+        </Style>
+
+        <Style TargetType="Label">
+            <Setter Property="Foreground" Value="{StaticResource Foreground}" />
+            <Setter Property="Background" Value="{StaticResource Background}" />
+            <Setter Property="FontSize" Value="16" />
+            <Setter Property="FontFamily" Value="Resources/RubikMoonrocks-Regular.ttf #Rubik Moonrocks" />
+        </Style>
+
+        <Style TargetType="TextBox">
+            <Setter Property="Foreground" Value="{StaticResource Foreground}" />
+            <Setter Property="Background" Value="{StaticResource Background}" />
+            <Setter Property="FontSize" Value="16" />
+            <Setter Property="FontFamily" Value="Resources/RubikMoonrocks-Regular.ttf #Rubik Moonrocks" />
+        </Style>
+
+        <Style TargetType="TextBlock">
+            <Setter Property="Foreground" Value="{StaticResource Foreground}" />
+            <Setter Property="Background" Value="{StaticResource Background}" />
+            <Setter Property="FontSize" Value="16" />
+            <Setter Property="FontFamily" Value="Resources/RubikMoonrocks-Regular.ttf #Rubik Moonrocks" />
+        </Style>
+    </Application.Resources>
+</Application>

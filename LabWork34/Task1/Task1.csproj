@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="apple.png" />
+    <None Remove="create.png" />
+    <None Remove="exit.png" />
+    <None Remove="file.png" />
+    <None Remove="new window.png" />
+    <None Remove="open.png" />
+    <None Remove="print.png" />
+    <None Remove="save as.png" />
+    <None Remove="save.png" />
+    <None Remove="settings.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="apple.png" />
+    <Resource Include="create.png" />
+    <Resource Include="exit.png" />
+    <Resource Include="file.png" />
+    <Resource Include="new window.png" />
+    <Resource Include="open.png" />
+    <Resource Include="print.png" />
+    <Resource Include="save as.png" />
+    <Resource Include="save.png" />
+    <Resource Include="settings.png" />
+  </ItemGroup>
+
+</Project>

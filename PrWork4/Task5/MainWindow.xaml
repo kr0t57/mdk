@@ -1,0 +1,30 @@
+﻿<Window x:Class="Task5.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Task5"
+        xmlns:charting="clr-namespace:System.Windows.Forms.DataVisualization.Charting;assembly=System.Windows.Forms.DataVisualization"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800"
+        Loaded="MainWindow_OnLoaded">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="20"/>
+            <RowDefinition />
+        </Grid.RowDefinitions>
+
+        <Menu Grid.Row="0">
+            <MenuItem Header="Open" Click="ChangeDiagramStyleMenuItem_OnClick"/>
+            <MenuItem Header="Change Diagram Style">
+                <MenuItem Header="VerticalColumn" Click="ChangeDiagramStyleMenuItem_OnClick"/>
+                <MenuItem Header="HorizontalColumn" Click="ChangeDiagramStyleMenuItem_OnClick"/>
+                <MenuItem Header="Point" Click="ChangeDiagramStyleMenuItem_OnClick"/>
+            </MenuItem>
+        </Menu>
+
+        <WindowsFormsHost Grid.Row="1" x:Name="Host">
+            <charting:Chart x:Name="Chart"/>
+        </WindowsFormsHost>
+    </Grid>
+</Window>

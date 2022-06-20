@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <UseWindowsForms>True</UseWindowsForms>
+    <GeneratePackageOnBuild>False</GeneratePackageOnBuild>
+	  <Product>Практическая работа №5</Product>
+	  <Description>Текстовый редактор. Возможности: отсутсвуют</Description>
+	  <Company>АКТ(ф)СПбГУТ им. проф. М.А. Бонч-Бруевича</Company>
+	  <Copyright>Фамииля 2022</Copyright>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <COMReference Include="{215d64d2-031c-33c7-96e3-61794cd1ee61}">
+      <WrapperTool>tlbimp</WrapperTool>
+      <VersionMinor>4</VersionMinor>
+      <VersionMajor>2</VersionMajor>
+      <Guid>215d64d2-031c-33c7-96e3-61794cd1ee61</Guid>
+    </COMReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Extended.Wpf.Toolkit" Version="4.2.0" />
+    <PackageReference Include="QIQI.WpfFontPicker" Version="1.1.0" />
+  </ItemGroup>
+
+</Project>
